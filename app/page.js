@@ -112,7 +112,7 @@ const Home = () => {
         <div className="relative z-10 h-[100%] ">
           <Header />
           <div className="h-[100%] flex flex-col items-center justify-center gap-5">
-            <h2 className="text-white text-2xl font-bold">GB Pakistan Tours</h2>
+            <h2 className="text-white text-2xl font-bold">GB Pakistan Tour</h2>
             <p className="text-white font-semibold text-center w-[50%]">
               We operate outdoor trips to the corners of Gilgit Baltistan across
               old Silk route, Himalaya and karakoram.
