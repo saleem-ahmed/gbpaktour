@@ -1,9 +1,9 @@
 "use Client";
 import { Button, Navbar } from "flowbite-react";
-
+import Link from "next/link";
 const Header = () => {
   return (
-    <div className="w-full bg-white flex justify-center"> 
+    <div className="w-full bg-white flex justify-center">
       <Navbar rounded className="max-w-screen-xl w-full">
         <Navbar.Brand>
           <span className="self-center text-2xl font-bold text-[#0e7490] whitespace-nowrap dark:text-white">
@@ -20,7 +20,7 @@ const Header = () => {
           </Navbar.Link>
           <Navbar.Link href="#">About</Navbar.Link>
           <Navbar.Link href="#">Services</Navbar.Link>
-          <Navbar.Link href="#">Gallery</Navbar.Link>
+          <Navbar.Link href="/Gallery">Gallery</Navbar.Link>
           <Navbar.Link href="#">Team</Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
