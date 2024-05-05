@@ -175,6 +175,20 @@ const Gallery = () => {
                 alt=""
               />
             </div>
+            <div>
+              <Image
+                class="h-auto max-w-full rounded-lg"
+                src={Img1}
+                alt=""
+              />
+            </div>
+            <div>
+              <Image
+                class="h-auto max-w-full rounded-lg"
+                src={Img1}
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
