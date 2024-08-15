@@ -17,10 +17,10 @@ import {
   BsMailbox,
 } from "react-icons/bs";
 import Image from "next/image";
-import Img1 from "../public/adventure5.jpg";
-import Img2 from "../public/Image1.jpg";
-import Img3 from "../public/Image2.jpg";
-import Img4 from "../public/Image3.jpg";
+import Img1 from "../../public/adventure5.jpg";
+import Img2 from "../../public/Image1.jpg";
+import Img3 from "../../public/Image2.jpg";
+import Img4 from "../../public/Image3.jpg";
 import Img5 from "";
 // import Img6 from "@/public/Image5.jpg";
 // import Img7 from "@/public/Image6.jpg";
