@@ -2,7 +2,6 @@
 
 import Header from "./header";
 import Image from "next/image";
-// import HedaerImg from ";
 import AImg1 from "../public/about-img1.png";
 import AImg2 from "../public/about-img2.png";
 import Img1 from "../public/adventure1.jpg";
@@ -21,7 +20,6 @@ import Img6 from "../public/adventure6.jpg";
 import SerImg1 from "../public/car.png";
 import SerImg2 from "../public/house.png";
 import SerImg3 from "../public/food.png";
-// import bgVedio from "../public/backgroundvedio.mp4";
 import { Footer } from "flowbite-react";
 import { Button } from "flowbite-react";
 import {
