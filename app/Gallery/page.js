@@ -17,11 +17,7 @@ import {
   BsMailbox,
 } from "react-icons/bs";
 import Image from "next/image";
-import Img1 from "../../public/adventure5.jpg";
-import Img2 from "../../public/Image1.jpg";
-import Img3 from "../../public/Image2.jpg";
-import Img4 from "../../public/Image3.jpg";
-import Img5 from "";
+// import Img1 from "/adventur/
 // import Img6 from "@/public/Image5.jpg";
 // import Img7 from "@/public/Image6.jpg";
 
@@ -111,44 +107,27 @@ const Gallery = () => {
             <div>
               <Image
                 class="h-auto max-w-full rounded-lg"
-                src={Img1}
+                width={300}
+                height={300}
+                src="/adventure1.jpg"
                 alt=""
               />
             </div>
             <div>
               <Image
                 class="h-auto max-w-full rounded-lg"
-                src={Img2}
+                width={300}
+                height={300}
+                src="/Image1.jpg"
                 alt=""
               />
             </div>
             <div>
               <Image
                 class="h-auto max-w-full rounded-lg"
-                src={Img3}
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="grid gap-4">
-            <div>
-              <Image
-                class="h-auto max-w-full rounded-lg"
-                src={Img4}
-                alt=""
-              />
-            </div>
-            <div>
-              <Image
-                class="h-auto max-w-full rounded-lg"
-                src={Img5}
-                alt=""
-              />
-            </div>
-            <div>
-              <Image
-                class="h-auto max-w-full rounded-lg"
-                src={Img1}
+                width={300}
+                height={300}
+                src="Image2.jpg"
                 alt=""
               />
             </div>
@@ -157,35 +136,74 @@ const Gallery = () => {
             <div>
               <Image
                 class="h-auto max-w-full rounded-lg"
-                src={Img1}
+                width={300}
+                height={300}
+                src="Image3.jpg"
                 alt=""
               />
             </div>
             <div>
               <Image
                 class="h-auto max-w-full rounded-lg"
-                src={Img1}
+                width={300}
+                height={300}
+                src="Image4.jpg"
                 alt=""
               />
             </div>
             <div>
               <Image
                 class="h-auto max-w-full rounded-lg"
-                src={Img1}
+                width={300}
+                height={300}
+                src="/adventure1.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="grid gap-4">
+            <div>
+              <Image
+                class="h-auto max-w-full rounded-lg"
+                width={300}
+                height={300}
+                src="/adventure1.jpg"
                 alt=""
               />
             </div>
             <div>
               <Image
                 class="h-auto max-w-full rounded-lg"
-                src={Img1}
+                width={300}
+                height={300}
+                src="/adventure1.jpg"
                 alt=""
               />
             </div>
             <div>
               <Image
                 class="h-auto max-w-full rounded-lg"
-                src={Img1}
+                width={300}
+                height={300}
+                src="/adventure1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <Image
+                class="h-auto max-w-full rounded-lg"
+                width={300}
+                height={300}
+                src="/adventure1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <Image
+                class="h-auto max-w-full rounded-lg"
+                width={300}
+                height={300}
+                src="/adventure1.jpg"
                 alt=""
               />
             </div>

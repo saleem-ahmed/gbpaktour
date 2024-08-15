@@ -2,24 +2,24 @@
 
 import Header from "./header";
 import Image from "next/image";
-import AImg1 from "../public/about-img1.png";
-import AImg2 from "../public/about-img2.png";
-import Img1 from "../public/adventure1.jpg";
-import Timage1 from "../public/team-img1.jpg";
-import Timage2 from "/public/team-img2.jpg";
-import Timage3 from "/public/team-Img3.jpg";
-import Timage4 from "../public/team-img4.jpg";
-import Pimg1 from "../public/patner1.png";
-import Pimg2 from "../public/patner2.png";
-import Pimg3 from "../public/patner3.png";
-import Img2 from "../public/adventure2.jpg";
-import Img3 from "../public/adventure3.jpg";
-import Img4 from "../public/adventure4.jpg";
-import Img5 from "../public/adventure5.jpg";
-import Img6 from "../public/adventure6.jpg";
-import SerImg1 from "../public/car.png";
-import SerImg2 from "../public/house.png";
-import SerImg3 from "../public/food.png";
+// import AImg1 from "../public/about-img1.png";
+// import AImg2 from "../public/about-img2.png";
+// import Img1 from "../public/adventure1.jpg";
+// import Timage1 from "../public/team-img1.jpg";
+// import Timage2 from "/public/team-img2.jpg";
+// import Timage3 from "/public/team-Img3.jpg";
+// import Timage4 from "../public/team-img4.jpg";
+// import Pimg1 from "../public/patner1.png";
+// import Pimg2 from "../public/patner2.png";
+// import Pimg3 from "../public/patner3.png";
+// import Img2 from "../public/adventure2.jpg";
+// import Img3 from "../public/adventure3.jpg";
+// import Img4 from "../public/adventure4.jpg";
+// import Img5 from "../public/adventure5.jpg";
+// import Img6 from "../public/adventure6.jpg";
+// import SerImg1 from "../public/car.png";
+// import SerImg2 from "../public/house.png";
+// import SerImg3 from "../public/food.png";
 import { Footer } from "flowbite-react";
 import { Button } from "flowbite-react";
 import {
@@ -32,32 +32,32 @@ import {
 const Home = () => {
   const AdventureCards = [
     {
-      img: Img1,
+      img: "/adventure2.jpg",
       title: "Khunjarab National Park",
       desc: "Located in Gojal Hunza, Gilgit-Baltistan, Pakistan.",
     },
     {
-      img: Img2,
+      img: "/adventure2.jpg",
       title: "Attabad Lake",
       desc: "Located in Gojal Hunza, Gilgit-Baltistan, Pakistan.",
     },
     {
-      img: Img3,
+      img: "/adventure3.jpg",
       title: "Naltar Valley",
       desc: "Located near Nomal Gilgit, Gilgit-Baltistan, Pakistan.",
     },
     {
-      img: Img4,
+      img: "/adventure4.jpg",
       title: "Deosai National Park",
       desc: "Located in Astore, Gilgit-Baltistan, Pakistan.",
     },
     {
-      img: Img5,
+      img: "/adventure5.jpg",
       title: "Phandar Valley",
       desc: "Located in Ghizer, Gilgit-Baltistan, Pakistan.",
     },
     {
-      img: Img6,
+      img: "/adventure6.jpg",
       title: "Skardu",
       desc: "Located in Baltistan, Gilgit-Baltistan, Pakistan.",
     },
@@ -65,22 +65,22 @@ const Home = () => {
 
   const teamMembers = [
     {
-      img: Timage1,
+      img: "/team-img1.jpg",
       name: "Shoaib Baig",
       design: "CEO/Co-founder",
     },
     {
-      img: Timage2,
+      img: "/team-img2.jpg",
       name: "Irfan Karim",
       design: "Tour Guide",
     },
     {
-      img: Timage3,
+      img: "/team-img3.jpg",
       name: "Najeeb Ullah Baig",
       design: "Translator",
     },
     {
-      img: Timage4,
+      img: "/team-img4.jpg",
       name: "Kainat imtiaz",
       design: "Translator",
     },
@@ -88,33 +88,33 @@ const Home = () => {
 
   const Patners = [
     {
-      img: Pimg1,
+      img: "/patner1.png",
       link: "https://www.serenahotels.com/",
     },
     {
-      img: Pimg2,
+      img: "/patner2.png",
       link: "https://www.marriott.com/",
     },
     {
-      img: Pimg3,
+      img: "/patner3.png",
       link: "https://avari.com/",
     },
   ];
 
   const Services = [
     {
-      icon: SerImg1,
+      icon: "/car.png",
       name: "Transportation",
       description: "We will facilitie you with our best transport system",
     },
     {
-      icon: SerImg2,
+      icon: "/house.png",
       name: "Residence",
       description:
         "We will provide you comfortable and and enjoyable experience",
     },
     {
-      icon: SerImg3,
+      icon: "/food.png",
       name: "Food",
       description:
         "You will enjoy a variety of Pakistani food and cultural food of Gilgit Baltistan",
@@ -178,7 +178,7 @@ const Home = () => {
               height={0}
               sizes="100vw"
               className="w-full rounded-lg"
-              src={AImg1}
+              src="/about-img1.png"
               alt="office content 1"
             />
             <Image
@@ -186,7 +186,7 @@ const Home = () => {
               height={0}
               sizes="100vw"
               className="mt-4 w-full lg:mt-10 rounded-lg"
-              src={AImg2}
+              src="/about-img2.png"
               alt="office content 2"
             />
           </div>
